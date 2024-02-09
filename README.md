@@ -1,2 +1,7 @@
 # Modular_sum_sequence
-Generates the first few entries of the modular sum sequence
+Generates the first few entries of the modular sum sequence. This sequence (a_n) is defined by
+
+ * a_0 = 0, a_1 = 1 and 
+ * a_n = (\sum_{i = 0}^{n-1} a_i) mod n
+
+It exhibits chaotic behaviour which are addressed in this mathoverflow question:
